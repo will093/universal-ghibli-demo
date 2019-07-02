@@ -1,0 +1,44 @@
+:host {
+  display: block;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #ff7f4f;
+
+  h1 {
+    width: 750px;
+    margin: 10px 0;
+  }
+}
+
+.app__container-outer {
+  display: flex;
+  justify-content: center;
+  background-color: #ffe4b4;
+}
+
+.app__container-inner {
+  width: 750px;
+  padding: 30px 15px;
+}
+
+.app__film {
+  margin: 60px 0;
+
+  &:first-child {
+    margin: 40px 0;
+  }
+}
+
+.app__film-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.app__film-details-right {
+  text-align: right;
+}
